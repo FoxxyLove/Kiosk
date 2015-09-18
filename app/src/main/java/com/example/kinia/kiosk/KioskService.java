@@ -63,7 +63,7 @@ public class KioskService extends Service
 
     private void handleKioskMode()
     {
-        if(isKioskModeActive(ctx))
+        if(PrefUtils.isKioskModeActive(ctx))
         {
             if(isInBackground())
             {
