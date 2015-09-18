@@ -8,11 +8,9 @@ import android.os.PowerManager;
 
 public class AppContext extends Application
 {
-
     private AppContext instance;
     private PowerManager.WakeLock wakeLock;
     private OnScreenOffReceiver onScreenOffReceiver;
-
 
     @Override
     public void onCreate()
@@ -44,5 +42,4 @@ public class AppContext extends Application
     {
         startService(new Intent(this, KioskService.class));
     }
-
 }

@@ -9,7 +9,6 @@ import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.util.Log;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
